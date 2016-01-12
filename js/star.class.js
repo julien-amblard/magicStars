@@ -17,7 +17,7 @@ var Stars = function( settings ){
 	this.w 			= ( settings.width )? settings.width : this.img.width ;
 	this.pop 		= ( settings.popDist )? settings.popDist : 2 ;
 	this.speed 		= ( settings.speed )? settings.speed : 5 ;
-	this.gravity	= ( settings.gravity )? settings.gravity : 2 ;
+	this.gravity	= ( settings.gravity != 'undefined' )? settings.gravity : 2 ;
 
 	this.init();
 

@@ -7,7 +7,7 @@ var oSTars = new Stars({
 	width 			: 22,
 	popDist 		: 2,
 	speed 			: 5,
-	gravity 		: 6
+	gravity 		: 0
 
 
 });
